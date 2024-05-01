@@ -23,9 +23,12 @@
     padding-top: 20px;
     padding-bottom: 20px;
     padding-inline: 0;
+    display: flex;
 }
 
 .icon-menu {
     fill: transparent;
     stroke: #0C0C0C;
+    width: 34px;
+    height: 34px;
 }
