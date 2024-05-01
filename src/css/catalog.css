@@ -1,12 +1,7 @@
-
-    .catalog-non-displai{
-        display: none;
-    }
+.catalog-non-display{
+display: none;
+}
     
-
-
-
-
 .section-title {
     margin-bottom: 24px;
 }
@@ -20,8 +15,7 @@ color: #0c0c0c;
 padding-bottom: 8px;
 padding-top: 10px;
 }
-
-.catalog-price{
+.section-text{
 font-weight: 400;
 font-size: 14px;
 line-height: 1.29;
@@ -40,21 +34,28 @@ color: rgba(12, 12, 12, 0.5);
 .catalog-item {
     border: 1px solid rgba(12, 12, 12, 0.05);
         border-radius: 30px;
-        width: 335px;
-        /* height: 364px; */
+        width: 100%;
         background: #f3f3f3;
         justify-content: center;
         padding: 24px 28px;
 }
 
-.catalog-watch {}
-
 .catalog-image {
     margin: 0 auto;
 }
 
-.description{
-  margin-top: 10px;
+.catalog-btn{
+    border-radius: 16px;
+        width: 160px;
+        height: 48px;
+        background: #3350e9;
+        display: block;
+        border: none;
+        margin: 40px auto 0;
+}
+.catalog-btn-title{
+font-size: 14px;
+text-align: center;
+color: #fbfbfb;
 }
 
-.catalog-non-displai {}
