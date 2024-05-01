@@ -1,0 +1,31 @@
+.header {
+    background-color: #FBFBFB;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #0C0C0C;
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    font-family: Gilroy;
+    font-weight: 500;
+}
+
+.menu-button {
+    border: none;
+    background-color: transparent;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-inline: 0;
+}
+
+.icon-menu {
+    fill: transparent;
+    stroke: #0C0C0C;
+}
