@@ -3,22 +3,58 @@
         display: none;
     }
     
-.section-catalog {
-    margin-top: 30px;
+
+
+
+
+.section-title {
+    margin-bottom: 24px;
 }
 
-.container {}
+.catalog-text{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: -0.02em;
+color: #0c0c0c;
+padding-bottom: 8px;
+padding-top: 10px;
+}
 
-.catalog {}
+.catalog-price{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+color: rgba(12, 12, 12, 0.5);
+}
 
-.catalog-title {}
+.catalog-list {
+    display: flex;
+  gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-.catalog-list {}
-
-.catalog-item {}
+.catalog-item {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+        border-radius: 30px;
+        width: 335px;
+        /* height: 364px; */
+        background: #f3f3f3;
+        justify-content: center;
+        padding: 24px 28px;
+}
 
 .catalog-watch {}
 
-.catalog-image {}
+.catalog-image {
+    margin: 0 auto;
+}
+
+.description{
+  margin-top: 10px;
+}
 
 .catalog-non-displai {}
