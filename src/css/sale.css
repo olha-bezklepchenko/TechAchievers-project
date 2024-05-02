@@ -1,0 +1,95 @@
+.sale-title {
+  margin-bottom: 24px;
+}
+
+.sale-inner {
+  margin-bottom: 20px;
+}
+
+.sale-list {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 5px;
+}
+
+.sale-item {
+  padding: 13px 14px;
+  flex-basis: calc((100% - 15px) / 4);
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 16px;
+  background-color: #f3f3f3;
+}
+
+.sale-thumb-img {
+  padding: 50px;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  background-color: #f3f3f3;
+}
+
+.sale-wrapper {
+  padding: 48px 28px;
+  border-radius: 30px;
+  background-color: #3350e9;
+}
+
+.sale-wrapper-title {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  color: #fbfbfb;
+}
+
+.sale-product-tag {
+  margin-bottom: 20px;
+  font-weight: 400;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-wrapper-inner {
+  margin-bottom: 28px;
+  display: flex;
+  gap: 9px;
+}
+
+.sale-price {
+  padding: 8px 12px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #fbfbfb;
+  border-radius: 8px;
+  background-color: rgba(251, 251, 251, 0.1);
+}
+
+.sale-price-through {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  text-decoration: line-through;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-text {
+  margin-bottom: 28px;
+  color: rgba(251, 251, 251, 0.7);
+}
+
+.sale-tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.sale-tags-link {
+  padding: 8px 12px;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+}
