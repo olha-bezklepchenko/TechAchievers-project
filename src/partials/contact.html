@@ -1,0 +1,47 @@
+<section class="section section-contact">
+    <div class="section-div-title">
+        <h2 class="sectione-title">Contact Us</h2>
+    </div>
+    <div class="contact-field">
+        <form class="contact-form">
+        <p class="contact-text">Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to you shortly.</p>
+                <div class="contact-form-div">
+                <label for="user-name" class="contact-label"></label>
+                <input type="text" name="user-name" 
+                class="contact-input" 
+                id="user-name" 
+                placeholder="Name" required/>
+            </div>
+            <div class="contact-form-div">
+                <label for="user-email" class="contact-label"></label>
+                <input type="email" name="user-email" 
+                class="contact-input" 
+                id="user-email" 
+                placeholder="Email"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required/>
+            </div>
+            <div class="contact-form-div">
+                <label for="user-tel" class="contact-label"></label>
+                <input type="tel" name="user-tel" 
+                class="contact-input" id="user-tel" 
+                placeholder="+380" 
+                pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$ (+380-XX-XXX-XX-XX)" required/>
+            </div>
+            <div class="contact-form-div">
+                <label for="user-coments" class="contact-label"></label>
+                <textarea name="user-coments" id="user-coments" class="coments-text" placeholder="Comments"></textarea>
+            </div>
+            <div class="div-btn">
+                <button class="contact-btn" type="submit">Send</button>
+            </div>
+        </form>
+        </div>
+        <div class="contact-wrap">
+            <picture>
+                <source srcset="./img/contact-mob.jpg 1x, ./img/contct-mob2x.jpg 2x" media="min-width: 320px">
+                <source srcset="./img/contact-tab.jpg 1x, ./img/contact--tab@2x.jpg 2x" media="min-width: 768px">
+                <source srcset="./img/contact.jpg 1x, ./img/contact-@2x.jpg 2x" media="min-width: 1280px">
+                <img src="./img/contact.jpg" alt="contact us" width="335" height="512">
+            </picture>
+        </div>
+    </section>
