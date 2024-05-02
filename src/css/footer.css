@@ -1,11 +1,13 @@
-/* MOBILE */
-footer {
+.container-footer {
     background-color: #0C0C0C;
     color: #FBFBFB;
+    border-radius: 30px;
+}
+
+/* MOBILE */
+.footer {
     max-width: 375px;
     padding: 40px 28px 28px 28px;
-    border-radius: 30px;
-    border: 1px;
     margin: 0 auto;
 }
 
@@ -21,9 +23,16 @@ footer {
     margin-bottom: 34px;
 }
 
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .social-list-link {
     border: 1px solid rgba(251, 251, 251, 0.1);
     border-radius: 10px;
+    padding-top: 16px;
     padding: 8px 8px 4px 8px;
 }
 
@@ -31,6 +40,7 @@ footer {
     fill: #FBFBFB;
     width: 18px;
     height: 18px;
+    opacity: 0.8;
 }
 
 .footer-address-link {
