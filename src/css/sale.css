@@ -117,12 +117,13 @@
   }
 
   .sale-wrapper-title {
+    max-width: 442px;
     font-size: 32px;
     line-height: 1.13;
   }
 
   .sale-wrapper-inner {
-    margin-right: 30px;
+    margin-bottom: 30px;
   }
 
   .sale-price {
