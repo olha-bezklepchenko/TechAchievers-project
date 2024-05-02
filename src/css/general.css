@@ -1,20 +1,8 @@
-@font-face {
-  font-family: 'Gilroy', sans-serif;
-  src: url('../fonts/Gilroy-Bold.woff') format('woff'),
-    url('../fonts/Gilroy-Bold.woff2') format('woff2'),
-    url('../fonts/Gilroy-Medium.woff') format('woff'),
-    url('../fonts/Gilroy-Medium.woff2') format('woff2'),
-    url('../fonts/Gilroy-Regular.woff') format('woff'),
-    url('../fonts/Gilroy-Regular.woff2') format('woff2'),
-    url('../fonts/Gilroy-Semibold.woff') format('woff'),
-    url('../fonts/Gilroy-Semibold.woff2') format('woff2');
-  font-style: normal;
-  font-weight: 500;
-}
 
 body {
   font-family: 'Gilroy', sans-serif;
   background-color: #fbfbfb;
+  font-style: normal;
   color: #0c0c0c;
   font-size: 14px;
   line-height: 1.29;
