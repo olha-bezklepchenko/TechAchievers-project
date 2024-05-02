@@ -12,10 +12,10 @@ font-size: 16px;
 line-height: 1.25;
 letter-spacing: -0.02em;
 color: #0c0c0c;
-padding-bottom: 8px;
-padding-top: 10px;
+margin-bottom: 8px;
+margin-top: 10px;
 }
-.section-text{
+.catalog-list .section-text{
 font-weight: 400;
 font-size: 14px;
 line-height: 1.29;
