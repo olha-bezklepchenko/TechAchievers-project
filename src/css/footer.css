@@ -1,30 +1,38 @@
-/* MOBILE */
-footer {
+.footer-container {
     background-color: #0C0C0C;
     color: #FBFBFB;
-    max-width: 375px;
-    padding: 40px 28px 28px 28px;
     border-radius: 30px;
-    border: 1px;
+}
+
+/* MOBILE */
+footer {
+    min-width: 375px;
+    padding: 40px 28px 28px 28px;
     margin: 0 auto;
+}
+
+.footer-wrap {
+    margin-bottom: 34px;
 }
 
 .footer-logo {
     font-size: 16px;
-    line-height: 24px;
 }
 
 .social-list {
     display: flex;
     gap: 10px;
     margin-top: 20px;
-    margin-bottom: 34px;
 }
 
-.social-list-link {
+.social-list-a {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
     border: 1px solid rgba(251, 251, 251, 0.1);
     border-radius: 10px;
-    padding: 8px 8px 4px 8px;
 }
 
 .social-list-icon {
@@ -33,22 +41,26 @@ footer {
     height: 18px;
 }
 
-.footer-address-link {
-    font-size: 12px;
-    line-height: 18px;
+.contact {
+    display: inline-block;
     border: 1px solid #FBFBFB;
     border-radius: 16px;
     padding: 14px 20px 14px 20px;
+    margin-bottom: 40px;
+}
+
+.footer-address-link {
+    font-size: 12px;
+    line-height: 1.5;
 }
 
 .text {
     max-width: 279px;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     text-align: center;
     margin: 0 auto;
-    margin-top: 40px;
     margin-bottom: 92px;
 }
 
@@ -69,12 +81,12 @@ footer {
 .addrs {
     max-width: 83px;
     font-size: 12px;
-    line-height: 16px;
+    line-height: 1.3;
 }
 
 .nav-link {
     font-size: 12px;
-    line-height: 16px;
+    line-height: 1.3;
 }
 
 .footer-line {
@@ -87,7 +99,7 @@ footer {
     flex-direction: column;
     gap: 8px;
     font-size: 10px;
-    line-height: 14px;
+    line-height: 1.4;
     color: rgba(251, 251, 251, 0.5);
 }
 
@@ -101,6 +113,7 @@ footer {
     .footer {
         max-width: 768px;
         padding: 40px 40px 28px 40px;
+        margin: 0 auto;
     }
 
     .footer-first {
@@ -110,9 +123,13 @@ footer {
         flex-wrap: wrap;
     }
 
+    .footer-wrap {
+        margin-bottom: 86px;
+    }
+
     .footer-logo {
         font-size: 20px;
-        line-height: 24px;
+        line-height: 1.2;
         margin-bottom: 20px;
     }
 
@@ -121,22 +138,25 @@ footer {
         height: 20px;
     }
 
-    .footer-address-link {
-        font-size: 14px;
-        line-height: 18px;
+    .contact {
+        display: inline-block;
         border: 1px solid #FBFBFB;
         border-radius: 16px;
         padding: 15px;
+        margin-bottom: none;
+    }
 
+    .footer-address-link {
+        font-size: 14px;
+        line-height: 1.2;
     }
 
     .text {
         max-width: 524px;
         font-weight: 600;
         font-size: 28px;
-        line-height: 32px;
+        line-height: 1.14;
         margin: 0 auto;
-        margin-top: 86px;
         margin-bottom: 100px;
     }
 
@@ -153,12 +173,12 @@ footer {
     .addrs {
         min-width: 162px;
         font-size: 14px;
-        line-height: 18px;
+        line-height: 1.2;
     }
 
     .nav-link {
         font-size: 12px;
-        line-height: 16px;
+        line-height: 1.3;
     }
 
     .footer-line {
@@ -170,7 +190,7 @@ footer {
         flex-direction: row;
         justify-content: space-between;
         font-size: 14px;
-        line-height: 18px;
+        line-height: 1.2;
     }
 }
 
@@ -189,21 +209,16 @@ footer {
 
     .footer-logo {
         font-size: 20px;
-        line-height: 24px;
+        line-height: 1.2;
         margin-bottom: 20px;
     }
 
-    .footer-address-link {
-        font-size: 14px;
-        line-height: 18px;
-        border: 1px solid #FBFBFB;
-        border-radius: 16px;
-        padding: 15px;
+    .contact {
         order: 3;
     }
 
     .text {
-        margin-top: 0;
+        margin-top: auto;
         margin-bottom: 126px;
     }
 
@@ -215,6 +230,6 @@ footer {
 
     .nav-link {
         font-size: 14px;
-        line-height: 18px;
+        line-height: 1.2;
     }
 }
