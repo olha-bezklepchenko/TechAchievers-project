@@ -67,8 +67,8 @@ display: none;
 }
 
 .catalog-image {
-width: 280px;
-height: 312px;
+width: 268px;
+height: 292px;
 }
 
 .catalog-list {
@@ -97,8 +97,8 @@ line-height: 1;
 
 @media screen and (min-width: 1280px) {
 .catalog-image {
-width: 304px;
-height: 312px;
+width: 292px;
+height: 292px;
         }
 
 
