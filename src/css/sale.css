@@ -184,3 +184,19 @@
     line-height: 1.29;
   }
 }
+
+/* ADAPTIVE/DESKTOP */
+@media screen and (min-width: 1280px) {
+  .sale-wrapper-basic {
+    display: flex;
+    gap: 40px;
+  }
+
+  .sale-inner {
+    margin-bottom: 0;
+  }
+
+  .sale-thumb-img {
+    width: 428px;
+  }
+}
