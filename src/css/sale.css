@@ -25,7 +25,6 @@
 }
 
 .sale-thumb-img {
-  width: 335px;
   height: 385px;
   display: flex;
   align-items: center;
@@ -107,6 +106,14 @@
   border-radius: 8px;
 }
 
+/* ADAPTIVE/MOBILE */
+@media screen and (min-width: 375px) {
+  .sale-thumb-img {
+    width: 335px;
+  }
+}
+
+/* ADAPTIVE/TABLET */
 @media screen and (min-width: 768px) {
   .sale-inner {
     margin-bottom: 40px;
