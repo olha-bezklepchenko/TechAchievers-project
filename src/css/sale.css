@@ -66,7 +66,11 @@
 }
 
 .sale-price {
-  padding: 8px 12px;
+  width: 68px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.25;
@@ -76,8 +80,8 @@
 }
 
 .sale-price-through {
-  padding-top: 9px;
-  padding-bottom: 9px;
+  display: flex;
+  align-items: center;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -96,11 +100,19 @@
   gap: 8px;
 }
 
+.sale-tags-item {
+  height: 32px;
+}
+
 .sale-tags-link {
-  padding: 8px 12px;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 100%;
   font-size: 12px;
   line-height: 1.33;
+  letter-spacing: normal;
   color: #fbfbfb;
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 8px;
@@ -160,6 +172,7 @@
   .sale-price {
     font-size: 20px;
     line-height: 1;
+    width: 78px;
   }
 
   .sale-text {
@@ -170,6 +183,10 @@
 
   .sale-tags-list {
     max-width: 398px;
+  }
+
+  .sale-tags-item {
+    height: 34px;
   }
 
   .sale-tags-link {
@@ -189,7 +206,12 @@
     margin-bottom: 0;
   }
 
+  .sale-item {
+    height: calc((100% - 30px) / 4);
+  }
+
   .sale-thumb-img {
     width: 428px;
+    height: auto;
   }
 }
