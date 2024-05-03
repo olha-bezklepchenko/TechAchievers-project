@@ -18,11 +18,10 @@ body {
 }
 
 .section-title {
-
   font-size: 32px;
   font-weight: 600;
   line-height: 1;
-
+  margin-bottom: 24px;
 }
 
 .section {
@@ -55,6 +54,7 @@ body {
   .section-title {
     font-size: 48px;
     line-height: 0.92;
+    margin-bottom: 40px;
   }
 
   .section-text {
