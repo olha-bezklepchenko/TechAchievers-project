@@ -39,6 +39,13 @@ color: rgba(12, 12, 12, 0.5);
 .catalog-image {
     margin: 0 auto;
 }
+.catalog-watch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 279px;
+    height: 258px;
+}
 
 .catalog-btn{
 border-radius: 16px;
@@ -70,6 +77,10 @@ display: none;
 width: 268px;
 height: 292px;
 }
+.catalog-watch {
+   max-width: 280px;
+    height: 308px;
+}
 
 .catalog-list {
 flex-direction: row;
@@ -99,11 +110,14 @@ line-height: 1;
 .catalog-image {
 width: 292px;
 height: 292px;
+
         }
-
-
 .catalog-item {
 width: calc((100% - 46px) / 3);
+}
+.catalog-watch{
+ max-width: 304px;
+  
 }
 
 }
