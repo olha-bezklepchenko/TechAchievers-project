@@ -1,5 +1,8 @@
-.hero-container {
+.hero {
   padding-top: 60px;
+  padding-bottom: 30px;
+}
+.hero-container {
   background-color: #fbfbfb;
   margin: 0 auto;
   display: flex;
@@ -53,9 +56,11 @@
     padding-left: 32px;
     padding-right: 32px;
   }
-  .hero-container {
+  .hero {
     padding-top: 80px;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
+  }
+  .hero-container {
     gap: 11px;
     flex-direction: row;
   }
@@ -92,8 +97,12 @@
     padding-left: 65px;
     padding-right: 65px;
   }
+  .hero {
+    padding-bottom: 50px;
+  }
   .hero-container {
-    gap: 407px;
+    gap: 0;
+    justify-content: space-between;
   }
   .hero-title-container {
     width: 597px;
