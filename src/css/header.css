@@ -1,5 +1,7 @@
 .header {
     border-bottom: 1px solid rgba(12, 12, 12, 0.10);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .header-container {
@@ -18,8 +20,6 @@
 .menu-button {
     border: none;
     background-color: transparent;
-    padding-top: 20px;
-    padding-bottom: 20px;
     padding-inline: 0;
     display: flex;
 }
@@ -45,7 +45,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    background-image: url(../img/menu-mob@1.jpg);
+    background-image: linear-gradient(rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92)), url(../img/menu-mob@1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -72,7 +72,7 @@
 @media screen and (min-resolution: 2dppx),
 (min-resolution: 192dpi) {
     .mob-menu {
-        background-image: url(../img/menu-mob@2.jpg);
+        background-image: linear-gradient(rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92)), url(../img/menu-mob@2.jpg);
     }
 }
 
@@ -121,10 +121,10 @@
     border-radius: 50%;
     background-color: #3350E9;
     position: absolute;
-    top: 20px;
+    margin-top: 2px;
     display: block;
     left: 50%;
-    transform: translate(-50%);
+    transform: translateX(-50%);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -136,8 +136,8 @@
 }
 
 .head-contact {
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
 }
 
 .head-contact-list {
@@ -165,14 +165,15 @@
 
 
 @media screen and (min-width: 768px) {
+
+    .header {
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+
     .logo {
         font-size: 20px;
         letter-spacing: -0.4px;
-    }
-
-    .menu-button {
-        padding-top: 26px;
-        padding-bottom: 26px;
     }
 
     .icon-menu {
@@ -182,7 +183,7 @@
 
     .mob-menu {
         width: 330px;
-        background-image: url(../img/menu-tab@1.jpg);
+        background-image: linear-gradient(rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92)), url(../img/menu-tab@1.jpg);
         padding-top: 26px;
         padding-left: 32px;
         padding-right: 32px;
@@ -192,7 +193,7 @@
     @media screen and (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
         .mob-menu {
-            background-image: url(../img/menu-tab@2.jpg);
+            background-image: linear-gradient(rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92)), url(../img/menu-tab@2.jpg);
         }
     }
 
@@ -212,6 +213,11 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .header {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
     .menu-button {
         display: none;
     }
@@ -223,8 +229,6 @@
     .header-contact {
         display: flex;
         gap: 10px;
-        padding-top: 26px;
-        padding-bottom: 26px;
         align-items: center;
         justify-content: center;
     }
@@ -233,6 +237,10 @@
         display: flex;
         flex-direction: row;
         gap: 40px;
+    }
+
+    .head-desktop {
+        padding: 30px 0 40px;
     }
 
     .header-item {
@@ -264,4 +272,5 @@
     .mob-menu {
         display: none;
     }
+
 }
