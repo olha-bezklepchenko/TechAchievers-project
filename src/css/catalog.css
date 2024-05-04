@@ -14,9 +14,6 @@
 
 .catalog-list .section-text {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.5);
 }
 
@@ -60,6 +57,10 @@
     font-size: 14px;
     text-align: center;
     color: #fbfbfb;
+}
+
+.catalog-btn:hover{
+    background-color: #1F3CD4;
 }
 
 
@@ -118,7 +119,6 @@
     }
 
     .catalog-list {
-        row-gap: 32px;
         column-gap: 23px;
     }
 
