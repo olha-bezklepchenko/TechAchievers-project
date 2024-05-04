@@ -72,6 +72,7 @@
 
     }
 
+
     .catalog-btn {
         display: none;
     }
@@ -99,6 +100,7 @@
         width: calc((100% - 16px) / 2);
     }
 
+
     .catalog-text {
         width: 280px;
         font-size: 20px;
@@ -119,12 +121,14 @@
     }
 
     .catalog-list {
+        row-gap: 32px;
         column-gap: 23px;
     }
 
     .catalog-item {
         width: calc((100% - 46px) / 3);
     }
+
     .catalog-text{
         width: 304px;
     }
