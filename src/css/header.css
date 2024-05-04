@@ -1,7 +1,5 @@
 .header {
     border-bottom: 1px solid rgba(12, 12, 12, 0.10);
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .header-container {
@@ -22,6 +20,8 @@
     background-color: transparent;
     padding-inline: 0;
     display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .icon-menu {
@@ -166,11 +166,6 @@
 
 @media screen and (min-width: 768px) {
 
-    .header {
-        padding-top: 26px;
-        padding-bottom: 26px;
-    }
-
     .logo {
         font-size: 20px;
         letter-spacing: -0.4px;
@@ -209,6 +204,11 @@
     .head-cont-icon {
         width: 20px;
         height: 20px;
+    }
+
+    .menu-button {
+        padding-top: 26px;
+        padding-bottom: 26px;
     }
 }
 
