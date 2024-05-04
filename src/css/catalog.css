@@ -57,6 +57,7 @@
     font-size: 14px;
     text-align: center;
     color: #fbfbfb;
+    transition: background-color 0.3s ease;
 }
 
 .catalog-btn:hover{
