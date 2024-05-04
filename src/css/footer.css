@@ -1,15 +1,16 @@
 .footer {
-    padding: 30px 20px 20px 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 /* MOBILE */
-.footer-container {
-    /* width: 100%; */
-    margin: 0 auto;
+.footer-container-wrap {
+    width: 100%;
     padding: 40px 28px 28px;
     background-color: #0C0C0C;
     color: #FBFBFB;
     border-radius: 30px;
+    margin: 0 auto;
 }
 
 .footer-wrap {
@@ -122,19 +123,15 @@
     gap: 20px;
 }
 
-/* @media screen and (min-width: 375px) {
-    .footer-container {
+@media screen and (min-width: 375px) {
+    .footer-container-wrap {
         width: 335px;
     }
-} */
+}
 
 /* TAB */
 @media screen and (min-width: 768px) {
-    .footer {
-        padding: 40px 32px 32px 32px;
-    }
-
-    .footer-container {
+    .footer-container-wrap {
         width: 704px;
         padding: 40px 40px 28px;
     }
@@ -219,8 +216,14 @@
 
 /* DESKTOP */
 @media screen and (min-width: 1280px) {
-    .footer-container {
+    .footer-container-wrap {
         width: 1216px;
+    }
+
+    .footer .container {
+        width: 1216px;
+        padding-left: 32px;
+        padding-right: 32px;
     }
 
     .footer-first {
