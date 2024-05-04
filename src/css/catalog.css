@@ -14,9 +14,6 @@
 
 .catalog-list .section-text {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.5);
 }
 
@@ -60,6 +57,11 @@
     font-size: 14px;
     text-align: center;
     color: #fbfbfb;
+    transition: background-color 0.3s ease;
+}
+
+.catalog-btn:hover{
+    background-color: #1F3CD4;
 }
 
 
@@ -71,6 +73,7 @@
 
     }
 
+
     .catalog-btn {
         display: none;
     }
@@ -80,22 +83,24 @@
         height: 292px;
     }
 
-    .catalog-watch {
+.catalog-watch {
         max-width: 280px;
         height: 308px;
-    }
+    } 
 
     .catalog-list {
         flex-direction: row;
         flex-wrap: wrap;
         row-gap: 32px;
         column-gap: 16px;
-        /* justify-content: space-between; */
+        justify-content: space-between;
     }
 
     .catalog-item {
+        padding: 24px 32px;
         width: calc((100% - 16px) / 2);
     }
+
 
     .catalog-text {
         width: 280px;
@@ -123,6 +128,10 @@
 
     .catalog-item {
         width: calc((100% - 46px) / 3);
+    }
+
+    .catalog-text{
+        width: 304px;
     }
 
     .catalog-watch {
