@@ -142,6 +142,7 @@
   .sale-item {
     width: 132px;
     height: 132px;
+    border-radius: 20px;
   }
 
   .sale-item:not(:last-child) {
@@ -156,6 +157,7 @@
   .sale-thumb-img {
     width: 552px;
     height: 558px;
+    border-radius: 50px;
   }
 
   .sale-img {
@@ -165,6 +167,7 @@
 
   .sale-wrapper {
     padding: 60px;
+    border-radius: 50px;
   }
 
   .sale-wrapper-title {
