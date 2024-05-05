@@ -116,6 +116,11 @@
   color: #fbfbfb;
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 8px;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sale-tags-link:focus {
+  opacity: 0.7;
 }
 
 /* ADAPTIVE/TABLET */
@@ -177,8 +182,6 @@
 
   .sale-text {
     margin-bottom: 40px;
-    font-size: 16px;
-    line-height: 1.25;
   }
 
   .sale-tags-list {
@@ -213,5 +216,9 @@
   .sale-thumb-img {
     width: 428px;
     height: auto;
+  }
+
+  .sale-tags-link:hover {
+    opacity: 0.7;
   }
 }
