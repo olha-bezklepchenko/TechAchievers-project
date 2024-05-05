@@ -56,11 +56,13 @@ body {
     font-size: 48px;
     line-height: 0.92;
     margin-bottom: 40px;
+    letter-spacing: -0.02em;
   }
 
   .section-text {
     font-size: 16px;
     line-height: 1.25;
+    letter-spacing: -0.02em;
   }
 }
 
