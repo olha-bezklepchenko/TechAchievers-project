@@ -1,43 +1,44 @@
-<section class="section about" id="about-us">
-    <div class="container">
-        <div class="about-us">
-            <div class="block">
-                <div class="text">
-                    <h2 class="text-wrapper">About Us</h2>
-                    <div class="div">
-                        <p class="welcome-to-our">
-                            Welcome to our premium watch collection, where luxury and style meet functionality and
-                            precision.
-                            Our selection of timepieces embodies the very best in Swiss craftsmanship and engineering,
-                            ensuring that
-                            you'll always have a reliable and stylish accessory on your wrist.
-                        </p>
-                        <p class="at-our-premium-watch">
-                            At our premium watch collection, we believe that a watch is more than just a timekeeping
-                            device - it's a statement piece that reflects your personality and style. So why settle for
-                            anything less than the best?
-                        </p>
-                    </div>
-                </div>
-                <a href="#catalog" type="button" class="btn">
-                    <span class="text-wrapper-2">View catalog</span>
-                </a>
-            </div>
+<section class="section about-us" id="about-us">
+    <div class="container about-us-container">
+        <div class="about-us-content">
+            <h2 class="section-title about-us-title">About Us</h2>
+
+            <p class="section-text">
+                Welcome to our premium watch collection, where luxury and style meet 
+                functionality and precision. Our selection of timepieces embodies the 
+                very best in Swiss craftsmanship and engineering, ensuring that you'll 
+                always have a reliable and stylish accessory on your wrist.
+            </p>
+            <p class="section-text">
+                At our premium watch collection, we believe that a watch is more than 
+                just a timekeeping device - it's a statement piece that reflects your 
+                personality and style. So why settle for anything less than the best?
+            </p>
+            <a href="#catalog" class="about-us-btn">View catalog</a>
+        </div>
+
+        <div class="about-us-picture">
             <picture>
                 <source 
-                srcset="./img/about.jpg 1x, ./img/about@2x.jpg 2x" 
-                media="(min-width: 1280px)" 
+                    srcset="./img/about.jpg 1x, ./img/about@2x.jpg 2x"
+                    media="(min-width: 1280px)"
                 />
                 <source 
-                srcset="./img/about-tab.jpg 1x, ./img/about-tab@2x.jpg 2x" 
-                media="(min-width: 768px)" 
+                    srcset="./img/about-tab.jpg 1x, ./img/about-tab@2x.jpg 2x"
+                    media="(min-width: 768px)"
                 />
-                <source 
-                srcset="./img/about-mob.jpg 1x, ./img/about-mob@2x.jpg 2x" 
-                media="(min-width: 320px)" 
+                <source
+                    srcset="./img/about-mob.jpg 1x, ./img/about-mob@2x.jpg 2x"
+                    media="(max-width: 767px)"
                 />
-                <img src="./img/about.jpg" alt="watch img" class="rectangle" />
+                <img
+                    class="about-us-image"
+                    src="./img/about-tab.jpg"
+                    alt="watch"
+                    width="704"
+                    height="512"
+                />
             </picture>
         </div>
-    </div>
+    </div>    
 </section>
