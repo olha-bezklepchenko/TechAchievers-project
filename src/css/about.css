@@ -39,6 +39,7 @@
     .about-us-content {
         margin-bottom: 40px;
         padding: 80px 60px;
+        border-radius: 50px;
     }
 
     .about-us-content .section-text:last-of-type {
@@ -64,5 +65,9 @@
     .about-us-picture {
         flex-shrink: 0;
         width: 530px;
+    }
+
+    .about-us-content .section-text:last-of-type {
+        margin-bottom: 40px;
     }
 }
