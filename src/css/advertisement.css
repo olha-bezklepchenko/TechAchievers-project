@@ -33,9 +33,7 @@
 .button {
   width: 160px;
   height: 48px;
-  cursor: pointer;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.2;
   text-align: center;
   color: #fbfbfb;
@@ -65,7 +63,7 @@
   }
   .advertisement-text {
     font-size: 48px;
-    line-height: 0.9;
+    line-height: 0.92;
     max-width: 576px;
   }
   .button {
