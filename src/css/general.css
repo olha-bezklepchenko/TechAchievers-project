@@ -6,7 +6,6 @@ body {
   color: #0c0c0c;
   font-size: 14px;
   line-height: 1.29;
-  letter-spacing: -0.02em;
   font-weight: 500;
 }
 
@@ -22,6 +21,7 @@ body {
   font-weight: 600;
   line-height: 1;
   margin-bottom: 24px;
+  letter-spacing: -0.02em;
 }
 
 .section {
@@ -31,6 +31,7 @@ body {
 
 .section-text {
   color: rgba(12, 12, 12, 0.7);
+  letter-spacing: -0.02em;
 }
 
 @media screen and (min-width: 375px) {
