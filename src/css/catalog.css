@@ -7,7 +7,7 @@
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: -0.02em;
-    color: #0c0c0c;
+    
     margin-bottom: 8px;
     margin-top: 10px;
 }
@@ -85,7 +85,7 @@
 
 .catalog-watch {
         max-width: 280px;
-        height: 308px;
+        height: 306px;
     } 
 
     .catalog-list {
