@@ -2,7 +2,6 @@
         background-color: #f3f3f3;
         border-radius: 30px;
         padding: 48px 28px;
-        /* width: 335px; */
         height: 512px;
         margin-bottom: 20px;
     }
@@ -34,12 +33,14 @@
 border: 1px solid rgba(12, 12, 12, 0.15);
 border-radius: 12px;
 padding: 12px 14px;
-/* width: 279px; */
 width: 100%;
 height: 42px;
 outline: transparent;
-margin-bottom: 18px;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .contact-form-div{
+        margin-bottom: 18px;
     }
 
     .contact-input:focus,
@@ -56,17 +57,23 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         border-color: #3350e9;
     }
 
+    .form-valid:user-invalid{
+    border-color: #ff2c2c;
+    }
+
     .coments-text{
 border: 1px solid rgba(12, 12, 12, 0.15);
 border-radius: 12px;
 padding: 12px 14px;
-/* width: 279px; */
 width: 100%;
 height: 84px;
 resize: none;
-margin-bottom: 28px;
 outline: transparent;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .contact-form-div:last-of-type{
+        margin-bottom: 28px;
     }
     
     .contact-btn{
