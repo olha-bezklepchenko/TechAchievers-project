@@ -21,9 +21,6 @@
 .hero-span {
   color: #3350e9;
 }
-.hero-p {
-  width: 335px;
-}
 .hero-scroll {
   display: flex;
   justify-content: space-between;
