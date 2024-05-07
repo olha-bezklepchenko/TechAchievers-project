@@ -33,9 +33,10 @@
 .advertisement-btn {
   width: 160px;
   height: 48px;
-  font-weight: 500;
   line-height: 1.2;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #fbfbfb;
   border: 1px solid rgba(251, 251, 251, 0.15);
   border-radius: 16px;
